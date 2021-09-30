@@ -1262,7 +1262,7 @@ class AudioServiceBackground {
     // Mock method call handlers only work in one direction so we need to set up
     // a separate channel for each direction when testing.
     if (_testMode) {
-      MethodChannel('ryanheise.com/audioServiceBackgroundInverse')
+      // MethodChannel('ryanheise.com/audioServiceBackgroundInverse')
           // .setMockMethodCallHandler(handler);
     } else {
       _backgroundChannel.setMethodCallHandler(handler);
