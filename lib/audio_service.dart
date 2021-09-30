@@ -670,8 +670,8 @@ class AudioService {
           }
         };
         if (_testMode) {
-          MethodChannel('ryanheise.com/audioServiceInverse')
-              .setMockMethodCallHandler(handler);
+          // MethodChannel('ryanheise.com/audioServiceInverse')
+          //     .setMockMethodCallHandler(handler);
         } else {
           _channel.setMethodCallHandler(handler);
         }
