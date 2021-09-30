@@ -721,7 +721,7 @@
 //             updateTime,
 //             args[9], // repeatMode
 //             args[10], // shuffleMode
-//           ]);
+//           ]);//
 //           return true;
 //         case 'stopped':
 //           _running = false;
